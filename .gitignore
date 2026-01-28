@@ -1,0 +1,12 @@
+/.androidide
+/.androidpe
+
+.gradle/
+.kotlin/
+build/
+bin/
+gen/
+out/
+
+.externalNativeBuild
+.cxx/
