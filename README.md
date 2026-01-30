@@ -45,6 +45,8 @@ dependencies {
 ### Usage
 
 ```java
+import com.jahangir.devlogcat.Log;
+
 Log.d("MainActivity", "App started");
 Log.i("Auth", "Login success");
 Log.w("Network", "Slow response");
@@ -52,4 +54,20 @@ Log.e("Crash", "Something went wrong");
 ```
 ### Logging
 
-This project uses a custom `Log` (`com.jahangir.devlogcat.Log`) instead of Android's default `android.util.Log` for better debugging, centralized control, and DevLogCat support.
+This library uses a **custom `Log`** (`com.jahangir.devlogcat.Log`) instead of Android's default `android.util.Log` for:
+
+- Centralized log handling
+- DevLogCat viewer support
+- Consistent formatted output
+
+### ⚠️ Note for Play Store
+
+If you plan to publish your app on **Google Play**, be aware that **DevLogCat is meant for development only**.  
+
+Before building for release:
+
+- Remove or comment out the `com.jahangir.devlogcat.Log` imports.
+- Use Android's default `android.util.Log` instead.
+- Make sure all dependencies related to DevLogCat are removed or disabled.
+
+This ensures your app complies with Play Store policies and avoids unnecessary development-only code in production.
