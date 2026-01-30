@@ -9,14 +9,15 @@ Also perfect for anyone needing fast debugging logs on mobile devices.
 
 ## ✨ Features
 
-- 📌 Simple one-line logging
-- 🎯 Tag based log system
-- 🧠 Smart formatted output
-- ⚡ Lightweight & fast
+## ✨ Features
+
+- [x] multi APP supported
+- Level-based filtering
+- Tag-based filtering
+- ⚡ Lightweight, fast, and mobile-friendly
 - 🧩 Easy integration with any Android project
 - 🚫 No heavy dependencies
-- 🔥 Developer friendly API
-
+- 🔥 Developer-friendly API
 ---
 
 ## 📦 Installation
@@ -66,6 +67,8 @@ This library uses a **custom `Log`** (`com.jahangir.devlogcat.Log`) instead of A
 - Centralized log handling
 - DevLogCat viewer support
 - Consistent formatted output
+
+> **Note:** To view logs in real-time on your device, you **must install the companion Log Viewer app** (`com.jahangir.logviewer`). Without it, logs will still print in system logcat but you won’t get the enhanced DevLogCat viewer experience.
 
 ### ⚠️ Note for Play Store
 
