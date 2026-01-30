@@ -49,3 +49,7 @@ Log.d("MainActivity", "App started");
 Log.i("Auth", "Login success");
 Log.w("Network", "Slow response");
 Log.e("Crash", "Something went wrong");
+
+### Logging
+
+This project uses a custom `Log` (`com.jahangir.devlogcat.Log`) instead of Android's default `android.util.Log` for better debugging, centralized control, and DevLogCat support.

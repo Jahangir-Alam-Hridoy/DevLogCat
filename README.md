@@ -32,7 +32,7 @@ dependencyResolutionManagement {
         maven { url 'https://jitpack.io' }
     }
 }
-
+```
 ### Step 2 — Add Dependency
 
 Add this in **build.gradle** or **build.gradle.kts**
@@ -41,7 +41,7 @@ Add this in **build.gradle** or **build.gradle.kts**
 dependencies {
     implementation 'com.github.Jahangir-Alam-Hridoy:DevLogCat:1.0.1'
 }
-
+```
 ### Usage
 
 ```java
@@ -49,7 +49,7 @@ Log.d("MainActivity", "App started");
 Log.i("Auth", "Login success");
 Log.w("Network", "Slow response");
 Log.e("Crash", "Something went wrong");
-
+```
 ### Logging
 
 This project uses a custom `Log` (`com.jahangir.devlogcat.Log`) instead of Android's default `android.util.Log` for better debugging, centralized control, and DevLogCat support.
