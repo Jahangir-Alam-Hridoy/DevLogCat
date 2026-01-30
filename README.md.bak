@@ -1,5 +1,6 @@
 # DevLogCat 📱🧩  
-A powerful and lightweight Android logging library built for developers who want **easy, structured, and readable logs** inside their apps.
+A lightweight Android logging library for **mobile developers using AndroidIDE** — simple, structured, and readable logs **right from your phone**.  
+Also perfect for anyone needing fast debugging logs on mobile devices.
 
 [![](https://jitpack.io/v/Jahangir-Alam-Hridoy/DevLogCat.svg)](https://jitpack.io/#Jahangir-Alam-Hridoy/DevLogCat)
 
@@ -45,6 +46,8 @@ dependencies {
 ### Usage
 
 ```java
+import com.jahangir.devlogcat.Log;
+
 Log.d("MainActivity", "App started");
 Log.i("Auth", "Login success");
 Log.w("Network", "Slow response");
