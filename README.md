@@ -21,9 +21,16 @@ Also perfect for anyone needing fast debugging logs on mobile devices.
 
 ### Screenshots
 
-![Log Viewer](screenshots/image1.jpg)
-![Log Viewer](screenshots/image2.jpg)
-![Log Viewer](screenshots/image3.jpg)
+<!-- Wrapper for top two portrait images -->
+<div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
+    <img src="screenshots/image1.jpg" alt="Log Viewer 1" style="width: 45%; height: auto;" />
+    <img src="screenshots/image2.jpg" alt="Log Viewer 2" style="width: 45%; height: auto;" />
+</div>
+
+<!-- Bottom landscape/rotated image -->
+<div style="text-align: center;">
+    <img src="screenshots/image3.jpg" alt="Log Viewer 3" style="width: 90%; height: auto;" />
+</div>
 
 ## 📦 Installation
 
