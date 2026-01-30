@@ -12,12 +12,12 @@ Also perfect for anyone needing fast debugging logs on mobile devices.
 ## ✨ Features
 
 - [x] multi APP supported
-- Level-based filtering
-- Tag-based filtering
-- ⚡ Lightweight, fast, and mobile-friendly
-- 🧩 Easy integration with any Android project
-- 🚫 No heavy dependencies
-- 🔥 Developer-friendly API
+- [x] Level-based filtering
+- [x] Tag-based filtering
+- [x] ⚡ Lightweight, fast, and mobile-friendly
+- [x] 🧩 Easy integration with any Android project
+- [x] 🚫 No heavy dependencies
+- [x] 🔥 Developer-friendly API
 ---
 
 ## 📦 Installation
