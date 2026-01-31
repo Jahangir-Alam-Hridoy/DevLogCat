@@ -53,7 +53,7 @@ afterEvaluate {
                 //  THIS MUST MATCH YOUR GITHUB
                 groupId = "com.github.devjhr"
                 artifactId = "devlogcat"
-                version = "1.0.4"
+                version = "1.1.0"
 
                 from(components["release"])
             }
