@@ -66,10 +66,11 @@ dependencies {
 
 ### Usage
 
-```java
-~~import android.util.Log;~~  
-import com.jahangir.devlogcat.Log;
+```diff
+- import android.util.Log;
++ import com.jahangir.devlogcat.Log;
 ```
+
 ```java
 Log.d("MainActivity", "App started");
 Log.i("Auth", "Login success");
